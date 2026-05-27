@@ -63,6 +63,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '931520819939',
     projectId: 'lets-meet-stranger',
     storageBucket: 'lets-meet-stranger.firebasestorage.app',
+    androidClientId: '931520819939-he72fnuceb15dtgar4qof29qt23l076g.apps.googleusercontent.com',
+    iosClientId: '931520819939-2hvne9aa67tj2hnpfd02bsuh00i40f3k.apps.googleusercontent.com',
     iosBundleId: 'com.example.strangerMeet',
   );
+
 }
