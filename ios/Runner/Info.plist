@@ -66,5 +66,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<!-- Google Sign-In: REVERSED_CLIENT_ID from GoogleService-Info.plist -->
+	<!-- Replace com.googleusercontent.apps.YOUR_CLIENT_ID with the actual REVERSED_CLIENT_ID -->
+	<!-- Run: flutterfire configure  to regenerate GoogleService-Info.plist with REVERSED_CLIENT_ID -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<!-- IMPORTANT: Replace this with the REVERSED_CLIENT_ID from your GoogleService-Info.plist -->
+				<!-- It looks like: com.googleusercontent.apps.931520819939-xxxxxxxxxxxxxxxx -->
+				<string>REPLACE_WITH_REVERSED_CLIENT_ID</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
